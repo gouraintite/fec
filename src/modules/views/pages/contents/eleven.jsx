@@ -19,7 +19,7 @@ export default function Main() {
               <div
                 className="cursor-pointer"
                 onClick={() => {
-                  navigate(-1);
+                  navigate('/ten');
                 }}
               >
                 <FiArrowLeft className="text-4xl -mt-6 text-center" />
@@ -39,7 +39,7 @@ export default function Main() {
                 <FiArrowRight className="text-4xl -mt-6 text-center" />
               </div>
             </div>
-            <div className="flex justify-center px-16 w-full bg-white py-24">
+            <div className="flex justify-center px-16 w-full bg-white py-12">
               <div className="space-y-4 w-full">
                 <div className="pt-4 w-full">
                   <a href="mailto:fireextinguisher@gmail.net">

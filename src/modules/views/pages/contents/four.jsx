@@ -15,7 +15,7 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-12 rounded-xl shadow-xl bg-white/95">
-            <div className="cursor-pointer" onClick={()=>{navigate(-1)}}>
+            <div className="cursor-pointer" onClick={()=>{navigate('/three')}}>
               <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
             </div>
             <div className="mx-2 text-center -mt-8">
@@ -33,7 +33,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Seuil température</p>
+                  <p className="text-md font-semibold w-5/6">Seuil température</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/five')}}
@@ -41,7 +41,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Seuil pression</p>
+                  <p className="text-md font-semibold w-5/6">Seuil pression</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/five')}}
@@ -49,7 +49,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Prédiction panne</p>
+                  <p className="text-md font-semibold w-5/6">Prédiction panne</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/five')}}
@@ -57,7 +57,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Programmation maintenance</p>
+                  <p className="text-md font-semibold w-5/6">Programmation maintenance</p>
                 </Button>
               </div>
             </div>

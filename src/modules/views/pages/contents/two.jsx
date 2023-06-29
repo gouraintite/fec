@@ -5,6 +5,7 @@ import {
   ChevronRightIcon,
   ArrowTrendingUpIcon,
   Cog8ToothIcon,
+  ArchiveBoxIcon
 } from "@heroicons/react/24/outline";
 import { BiSolidCrown } from "react-icons/bi";
 import { FiArrowLeft } from "react-icons/fi";
@@ -33,7 +34,7 @@ export default function Main() {
                   className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
                 >
                   <BiSolidCrown strokeWidth={2} className="h-5 w-5" />
-                  <p className="text-lg font-semibold w-5/6">Surveillance</p>
+                  <p className="text-md font-semibold w-5/6">Surveillance</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
                 <Button
@@ -43,7 +44,7 @@ export default function Main() {
                   className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
                 >
                   <ArrowTrendingUpIcon strokeWidth={2} className="h-5 w-5" />
-                  <p className="text-lg font-semibold">Analyse de données</p>
+                  <p className="text-md font-semibold">Analyse de données</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
                 <Button
@@ -53,7 +54,17 @@ export default function Main() {
                   className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
                 >
                   <BellAlertIcon strokeWidth={2} className="h-5 w-5" />
-                  <p className="text-lg font-semibold w-5/6">Alertes</p>
+                  <p className="text-md font-semibold w-5/6">Alertes</p>
+                  <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
+                </Button>
+                <Button
+                  onClick={()=>{navigate('/twelve')}}
+                  variant="outlined"
+                  color="amber"
+                  className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
+                >
+                  <ArchiveBoxIcon strokeWidth={2} className="h-5 w-5" />
+                  <p className="text-md font-semibold w-5/6">Stockage</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
                 <Button
@@ -63,7 +74,7 @@ export default function Main() {
                   className="flex text-black .hover:text-orange-600 w-full justify-around items-center gap-3"
                 >
                   <Cog8ToothIcon strokeWidth={2} className="h-5 w-5" />
-                  <p className="text-lg font-semibold w-5/6">Paramètres</p>
+                  <p className="text-md font-semibold w-5/6">Paramètres</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
               </div>

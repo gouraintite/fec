@@ -16,7 +16,7 @@ export default function Main() {
               <div
                 className="cursor-pointer"
                 onClick={() => {
-                  navigate(-1);
+                  navigate('/eleven');
                 }}
               >
                 <FiArrowLeft className="text-4xl -mt-6 text-center" />
@@ -37,7 +37,7 @@ export default function Main() {
               </div>
             </div>
             
-            <div className="flex justify-center px-16 w-full py-24">
+            <div className="flex justify-center px-16 w-full py-2">
               <div className="space-y-4 w-full">
                 <Button
                   
@@ -45,7 +45,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Documents</p>
+                  <p className="text-md font-semibold w-5/6">Documents</p>
                 </Button>
                 <Button
                   
@@ -53,7 +53,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Archives</p>
+                  <p className="text-md font-semibold w-5/6">Archives</p>
                 </Button>
                 <Button
                   
@@ -61,7 +61,31 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Autres</p>
+                  <p className="text-md font-semibold w-5/6">Autres</p>
+                </Button>
+                <Button
+                  
+                  variant="outlined"
+                  color="amber"
+                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
+                >
+                  <p className="text-md font-semibold w-5/6">Historique des alertes incendies </p>
+                </Button>
+                <Button
+                  
+                  variant="outlined"
+                  color="amber"
+                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
+                >
+                  <p className="text-md font-semibold w-5/6">Historique de la variation de pression </p>
+                </Button>
+                <Button
+                  
+                  variant="outlined"
+                  color="amber"
+                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
+                >
+                  <p className="text-md font-semibold w-5/6">Historique des défaillances</p>
                 </Button>
               </div>
             </div>

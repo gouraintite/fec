@@ -15,7 +15,7 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-12 rounded-xl shadow-xl bg-white/95">
-            <div className="cursor-pointer" onClick={()=>{navigate(-1)}}>
+            <div className="cursor-pointer" onClick={()=>{navigate('/five')}}>
               <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
             </div>
             <div className="mx-2 text-center -mt-8">
@@ -25,7 +25,7 @@ export default function Main() {
                 </p>
             </div>
             
-            <div className="flex justify-center px-16 w-full bg-white py-24">
+            <div className="flex justify-center px-16 w-full bg-white py-12">
               <div className="space-y-4 w-full">
                 <Button
                   onClick={()=>{navigate('/seven')}}
@@ -33,7 +33,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Compte</p>
+                  <p className="text-md font-semibold w-5/6">Compte</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/seven')}}
@@ -41,7 +41,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">changer de langue</p>
+                  <p className="text-md font-semibold w-5/6">changer de langue</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/seven')}}
@@ -49,7 +49,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Ajouter des paramètres</p>
+                  <p className="text-md font-semibold w-5/6">Ajouter des paramètres</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/seven')}}
@@ -57,7 +57,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">À propos de nous</p>
+                  <p className="text-md font-semibold w-5/6">À propos de nous</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/seven')}}
@@ -65,7 +65,7 @@ export default function Main() {
                   color="green"
                   className="flex text-white duration-300 ease-in-out bg-green-500/70 hover:bg-green-700 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Contactez-nous</p>
+                  <p className="text-md font-semibold w-5/6">Contactez-nous</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/seven')}}
@@ -73,7 +73,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-white duration-300 ease-in-out bg-red-500/70 hover:bg-red-700 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">
+                  <p className="text-md font-semibold w-5/6">
                     Déconnexion
                   </p>
                 </Button>

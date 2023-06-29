@@ -16,7 +16,7 @@ export default function Main() {
             <div>
               <div className="flex mx-6 flex-col justify-center items-center">
                 <h1 className="text-2xl mb-12 font-bold">Bienvenue...</h1>
-                <p className="text-2xl mb-6 p-16 text-center">
+                <p className="text-2xl mb-6 p-16 text-center uppercase font-bold">
                   Fire Extinguisher Control
                 </p>
               </div>
@@ -30,9 +30,9 @@ export default function Main() {
               iconOnly={false}
               onClick={() => navigate("/register")}
               ripple="light"
-              className="w-1/2 mx-6 text-center text-black flex justify-center bg-main my-6"
+              className="w-1/2 mx-6 text-center text-lg space-x-2 text-black flex justify-center bg-main my-6"
             > <span>Continuer</span>
-            <FiArrowRight className="text-2xl text-center" />
+            <FiArrowRight className="text-2xl text-center mt-1" />
             </Button>
             </div>
 

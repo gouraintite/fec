@@ -11,7 +11,7 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-12 rounded-xl shadow-xl bg-orange-700/80">
-            <div className="cursor-pointer" onClick={()=>{navigate(-1)}}>
+            <div className="cursor-pointer" onClick={()=>{navigate('/two')}}>
               <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center text-white cursor-pointer" onClick={()=>{navigate(-1)}} />
             </div>
             <div className="mx-2 text-center text-white -mt-8">
@@ -29,7 +29,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Surveillance fumée</p>
+                  <p className="text-md font-semibold w-5/6">Surveillance fumée</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/four')}}
@@ -37,7 +37,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Surveillance flame</p>
+                  <p className="text-md font-semibold w-5/6">Surveillance flame</p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/four')}}
@@ -45,7 +45,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Surveillance température </p>
+                  <p className="text-md font-semibold w-5/6">Surveillance température </p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/four')}}
@@ -53,7 +53,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Surveillance pression </p>
+                  <p className="text-md font-semibold w-5/6">Surveillance pression </p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/four')}}
@@ -61,7 +61,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Prédiction des pannes </p>
+                  <p className="text-md font-semibold w-5/6">Prédiction des pannes </p>
                 </Button>
                 <Button
                   onClick={()=>{navigate('/four')}}
@@ -69,7 +69,7 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-lg font-semibold w-5/6">Programmation Maintenance</p>
+                  <p className="text-md font-semibold w-5/6">Programmation Maintenance</p>
                 </Button>
               </div>
             </div>
