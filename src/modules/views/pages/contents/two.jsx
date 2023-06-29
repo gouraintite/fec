@@ -1,5 +1,4 @@
 import { Button } from "@material-tailwind/react";
-import { FiArrowRight } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import {
   BellAlertIcon,
@@ -8,6 +7,7 @@ import {
   Cog8ToothIcon,
 } from "@heroicons/react/24/outline";
 import { BiSolidCrown } from "react-icons/bi";
+import { FiArrowLeft } from "react-icons/fi";
 export default function Main() {
   let navigate = useNavigate();
 
@@ -16,6 +16,9 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-16 rounded-xl shadow-xl bg-white/95">
+          <div className="cursor-pointer" onClick={()=>{navigate(-1)}}>
+              <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
+            </div>
             <div>
               <div className="flex mx-6 flex-col justify-center items-center">
                 <h1 className="text-2xl mb-12 font-bold">Menu</h1>
@@ -34,7 +37,7 @@ export default function Main() {
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/three')}}
+                  onClick={()=>{navigate('/four')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
@@ -44,7 +47,7 @@ export default function Main() {
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/three')}}
+                  onClick={()=>{navigate('/five')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
@@ -54,7 +57,7 @@ export default function Main() {
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/three')}}
+                  onClick={()=>{navigate('/six')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black .hover:text-orange-600 w-full justify-around items-center gap-3"
