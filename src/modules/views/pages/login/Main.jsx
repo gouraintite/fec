@@ -2,7 +2,7 @@ import { Input, Button, IconButton } from "@material-tailwind/react";
 import React, { useState } from "react";
 import { FiEye, FiEyeOff, FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../../../assets/img/logo.png";
+import Logo from "../../../../assets/img/fec.png";
 
 export default function Main() {
   const [password, setPassword] = useState("");
