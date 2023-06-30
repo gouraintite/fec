@@ -17,7 +17,7 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-16 rounded-xl shadow-xl bg-white/95">
-          <div className="cursor-pointer" onClick={()=>{navigate('/one')}}>
+          <div className="cursor-pointer" onClick={()=>{navigate('/')}}>
               <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
             </div>
             <div>
