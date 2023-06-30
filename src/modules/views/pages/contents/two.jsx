@@ -17,7 +17,7 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-16 rounded-xl shadow-xl bg-white/95">
-          <div className="cursor-pointer" onClick={()=>{navigate(-1)}}>
+          <div className="cursor-pointer" onClick={()=>{navigate('/one')}}>
               <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
             </div>
             <div>
@@ -71,7 +71,7 @@ export default function Main() {
                   onClick={()=>{navigate('/six')}}
                   variant="outlined"
                   color="amber"
-                  className="flex text-black .hover:text-orange-600 w-full justify-around items-center gap-3"
+                  className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
                 >
                   <Cog8ToothIcon strokeWidth={2} className="h-5 w-5" />
                   <p className="text-md font-semibold w-5/6">Paramètres</p>
