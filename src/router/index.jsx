@@ -16,6 +16,7 @@ import Nine from '../modules/views/pages/contents/nine'
 import Ten from '../modules/views/pages/contents/ten'
 import Eleven from '../modules/views/pages/contents/eleven'
 import Twelve from '../modules/views/pages/contents/twelve'
+import Thirteen from '../modules/views/pages/contents/thirteen'
 
 function Router() {
   const routes = [
@@ -78,6 +79,12 @@ function Router() {
           path: "/twelve",
           element: <Twelve />,
         },
+        {
+          path: "/thirteen",
+          element: <Thirteen />,
+        },
+
+
         // {
         //   path: "/dashboard/profile",
         //   element: <Profile />,

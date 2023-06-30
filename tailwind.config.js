@@ -15,7 +15,7 @@ module.exports = withMT({
       },
     },
     backgroundImage: {
-      'login': "url('/src/assets/img/login2.svg')",
+      'login': "url('/src/assets/img/back.png')",
       'banner': "url('/src/assets/img/banner.jpg')",
       }
   },

@@ -5,7 +5,8 @@ import {
   ChevronRightIcon,
   ArrowTrendingUpIcon,
   Cog8ToothIcon,
-  ArchiveBoxIcon
+  ArchiveBoxIcon,
+  HashtagIcon
 } from "@heroicons/react/24/outline";
 import { BiSolidCrown } from "react-icons/bi";
 import { FiArrowLeft } from "react-icons/fi";
@@ -16,7 +17,7 @@ export default function Main() {
     <>
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
-          <div className="h-auto py-16 rounded-xl shadow-xl bg-white/95">
+          <div className="h-auto py-16 rounded-xl shadow-xl bg-white/90">
           <div className="cursor-pointer" onClick={()=>{navigate('/')}}>
               <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
             </div>
@@ -75,6 +76,16 @@ export default function Main() {
                 >
                   <Cog8ToothIcon strokeWidth={2} className="h-5 w-5" />
                   <p className="text-md font-semibold w-5/6">Paramètres</p>
+                  <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
+                </Button>
+                <Button
+                  onClick={()=>{navigate('/thirteen')}}
+                  variant="outlined"
+                  color="amber"
+                  className="flex text-black hover:text-orange-600 w-full justify-around items-center gap-3"
+                >
+                  <HashtagIcon strokeWidth={2} className="h-5 w-5" />
+                  <p className="text-md font-semibold w-5/6">Autres</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
               </div>

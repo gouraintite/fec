@@ -8,7 +8,7 @@ export default function Main() {
     <>
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
-          <div className="h-auto py-16 rounded-xl shadow-xl bg-white/95">
+          <div className="h-auto py-16 rounded-xl shadow-xl bg-white/90">
             {/* <h1 className="text-3axl pb-6 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-main to-second">Synes</h1> */}
             <h1 className="text-6xl text-center pb-6 font-bold text-second">
               <span className="bg-main rounded-lg px-3">FE</span> C

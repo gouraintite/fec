@@ -1,13 +1,9 @@
-import { Input, Button, IconButton } from "@material-tailwind/react";
-import React, { useState } from "react";
-import { FiEye, FiEyeOff, FiArrowLeft } from "react-icons/fi";
+import { Button } from "@material-tailwind/react";
+import { FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
 
 export default function Main() {
-  const [password, setPassword] = useState("");
-  const [show, setShow] = useState(false);
-  const onChange = ({ target }) => setPassword(target.value);
   let navigate = useNavigate();
 
   return (
@@ -15,49 +11,41 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-12 rounded-xl shadow-xl bg-white/90">
-            <div className="cursor-pointer" onClick={()=>{navigate('/three')}}>
-              <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
+            <div className="cursor-pointer" onClick={()=>{navigate('/two')}}>
+              <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center cursor-pointer" onClick={()=>{navigate(-1)}} />
             </div>
             <div className="mx-2 text-center -mt-8">
-            <h1 className="text-2xl mb-2 font-bold">Analyse des données</h1>
-                <p className="text-xl w-9/12 text-center text-white/10">
+            <h1 className="text-2xl mb-2 font-bold">Autres</h1>
+                <p className="text-xl w-9/12 text-center text-white/80">
                   ----------------------------------------
                 </p>
             </div>
             
-            <div className="flex justify-center px-16 w-full bg-white py-16">
+            <div className="flex justify-center px-12 w-full bg-white py-12">
               <div className="space-y-4 w-full">
                 <Button
-                  onClick={()=>{navigate('/five')}}
+                  
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Seuil température</p>
+                  <p className="text-md font-semibold w-5/6">Historique des alertes incendies </p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/five')}}
+                  
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Seuil pression</p>
+                  <p className="text-md font-semibold w-5/6">Historique de la variation de pression </p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/five')}}
+                  
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Prédiction panne</p>
-                </Button>
-                <Button
-                  onClick={()=>{navigate('/five')}}
-                  variant="outlined"
-                  color="amber"
-                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
-                >
-                  <p className="text-md font-semibold w-5/6">Programmation maintenance</p>
+                  <p className="text-md font-semibold w-5/6">Historique des défaillances</p>
                 </Button>
               </div>
             </div>

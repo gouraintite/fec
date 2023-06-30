@@ -10,7 +10,7 @@ export default function Main() {
     <>
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
-          <div className="h-auto py-12 rounded-xl shadow-xl bg-white/95">
+          <div className="h-auto py-12 rounded-xl shadow-xl bg-white/90">
 
           <div className="flex justify-between w-9/12 px-4">
               <div
@@ -54,38 +54,6 @@ export default function Main() {
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
                   <p className="text-md font-semibold w-5/6">Archives</p>
-                </Button>
-                <Button
-                  
-                  variant="outlined"
-                  color="amber"
-                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
-                >
-                  <p className="text-md font-semibold w-5/6">Autres</p>
-                </Button>
-                <Button
-                  
-                  variant="outlined"
-                  color="amber"
-                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
-                >
-                  <p className="text-md font-semibold w-5/6">Historique des alertes incendies </p>
-                </Button>
-                <Button
-                  
-                  variant="outlined"
-                  color="amber"
-                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
-                >
-                  <p className="text-md font-semibold w-5/6">Historique de la variation de pression </p>
-                </Button>
-                <Button
-                  
-                  variant="outlined"
-                  color="amber"
-                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
-                >
-                  <p className="text-md font-semibold w-5/6">Historique des défaillances</p>
                 </Button>
               </div>
             </div>
