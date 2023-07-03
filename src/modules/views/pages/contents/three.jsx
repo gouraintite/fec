@@ -21,10 +21,9 @@ export default function Main() {
                 </p>
             </div>
             
-            <div className="flex justify-center px-12 w-full bg-white py-12">
+            <div className="flex justify-center bg-white px-12 w-full py-12">
               <div className="space-y-4 w-full">
                 <Button
-                  onClick={()=>{navigate('/four')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -32,15 +31,13 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Surveillance fumée</p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/four')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Surveillance flame</p>
+                  <p className="text-md font-semibold w-5/6">Surveillance flamme</p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/four')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -48,12 +45,18 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Surveillance température </p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/four')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
                   <p className="text-md font-semibold w-5/6">Surveillance pression </p>
+                </Button>
+                <Button
+                  variant="outlined"
+                  color="amber"
+                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
+                >
+                  <p className="text-md font-semibold w-5/6">Surveillance mouvement </p>
                 </Button>
               </div>
             </div>

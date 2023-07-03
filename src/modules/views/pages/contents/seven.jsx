@@ -15,8 +15,8 @@ export default function Main() {
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-12 rounded-xl shadow-xl bg-white/90">
-            <div className="cursor-pointer" onClick={()=>{navigate('/six')}}>
-              <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center" />
+            <div className="cursor-pointer" onClick={()=>{navigate(-1)}}>
+              <FiArrowLeft className="text-4xl mx-5 -mt-6 text-center"  onClick={()=>{navigate(-1)}} />
             </div>
             <div className="mx-2 text-center -mt-8">
             <h1 className="text-2xl mb-2 font-bold">Compte</h1>
@@ -25,10 +25,9 @@ export default function Main() {
                 </p>
             </div>
             
-            <div className="flex justify-center px-16 w-full bg-white py-12">
+            <div className="flex justify-center px-16 w-full py-12">
               <div className="space-y-4 w-full">
                 <Button
-                  onClick={()=>{navigate('/eight')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -36,7 +35,6 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Notification de sécurité</p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/eight')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -44,7 +42,6 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Demander infos compte</p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/eight')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -52,7 +49,6 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Supprimer le compte</p>
                 </Button>
                 <Button
-                  onClick={()=>{navigate('/eight')}}
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"

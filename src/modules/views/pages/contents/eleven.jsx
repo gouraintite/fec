@@ -19,7 +19,7 @@ export default function Main() {
               <div
                 className="cursor-pointer"
                 onClick={() => {
-                  navigate('/ten');
+                  navigate(-1);
                 }}
               >
                 <FiArrowLeft className="text-4xl -mt-6 text-center" />
@@ -39,14 +39,11 @@ export default function Main() {
                 <FiArrowRight className="text-4xl -mt-6 text-center" />
               </div>
             </div>
-            <div className="flex justify-center px-16 w-full bg-white py-12">
+            <div className="flex justify-center px-16 w-full py-12">
               <div className="space-y-4 w-full">
                 <div className="pt-4 w-full">
                   <a href="mailto:fireextinguisher@gmail.net">
                     <Button
-                      onClick={() => {
-                        navigate("/eight");
-                      }}
                       variant="outlined"
                       color="amber"
                       className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -60,9 +57,6 @@ export default function Main() {
                 <div className="pt-4 w-full">
                   <a href="tel:+237670167002">
                     <Button
-                      onClick={() => {
-                        navigate("/eight");
-                      }}
                       variant="outlined"
                       color="amber"
                       className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"

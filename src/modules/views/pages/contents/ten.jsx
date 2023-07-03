@@ -17,7 +17,7 @@ export default function Main() {
               <div
                 className="cursor-pointer"
                 onClick={() => {
-                  navigate('/nine');
+                  navigate(-1);
                 }}
               >
                 <FiArrowLeft className="text-4xl -mt-6 text-center" />
@@ -37,7 +37,7 @@ export default function Main() {
                 <FiArrowRight className="text-4xl -mt-6 text-center" />
               </div>
             </div>
-            <div className="px-6 w-full bg-white py-12">
+            <div className="px-6 w-full py-12">
 
             <p className="font-semibold uppercase py-3 text-center text-xl">FIRE EXTINGUISHER CONTROL</p>
               <p className="text-justify text-xl "> est une

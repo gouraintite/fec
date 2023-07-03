@@ -78,7 +78,7 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Paramètres</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
                 </Button>
-                <Button
+                {/* <Button
                   onClick={()=>{navigate('/thirteen')}}
                   variant="outlined"
                   color="amber"
@@ -87,7 +87,7 @@ export default function Main() {
                   <HashtagIcon strokeWidth={2} className="h-5 w-5" />
                   <p className="text-md font-semibold w-5/6">Autres</p>
                   <ChevronRightIcon strokeWidth={3} className="h-5 w-5" />
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ export default function Main() {
               <div
                 className="cursor-pointer"
                 onClick={() => {
-                  navigate('/eleven');
+                  navigate(-1);
                 }}
               >
                 <FiArrowLeft className="text-4xl -mt-6 text-center" />
@@ -40,7 +40,6 @@ export default function Main() {
             <div className="flex justify-center px-16 w-full py-2">
               <div className="space-y-4 w-full">
                 <Button
-                  
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
@@ -48,7 +47,6 @@ export default function Main() {
                   <p className="text-md font-semibold w-5/6">Documents</p>
                 </Button>
                 <Button
-                  
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
