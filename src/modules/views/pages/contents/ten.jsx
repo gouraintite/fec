@@ -23,9 +23,9 @@ export default function Main() {
                   ----------------------------------------
                 </p>
             </div>
-            <div className="p-12 pt-6 px-4 w-full">
+            <div className="p-12 pt-6 px-3 w-full">
             <p className="font-semibold uppercase py-3 text-center text-xl">FIRE EXTINGUISHER CONTROL</p>
-              <p className="text-justify text-xl"> est une
+              <p className="text-justify text-lg"> est une
                 application permettant de contrôler differents paramètres tels
                 que la detection des départs de feu, et la pression de
                 l'extincteur.
