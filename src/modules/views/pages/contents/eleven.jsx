@@ -1,12 +1,8 @@
 import { Button } from "@material-tailwind/react";
-import React, { useState } from "react";
 import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
 export default function Main() {
-  const [password, setPassword] = useState("");
-  const [show, setShow] = useState(false);
-  const onChange = ({ target }) => setPassword(target.value);
   let navigate = useNavigate();
 
   return (
@@ -15,7 +11,7 @@ export default function Main() {
         <div className="w-full h-full flex items-center mx-auto justify-around container">
           <div className="h-auto py-12 rounded-xl shadow-xl bg-white/90">
 
-          <div className="flex justify-between w-9/12 px-3">
+          <div className="flex justify-evenly mx-auto w-9/12">
               <div
                 className="cursor-pointer"
                 onClick={() => {
@@ -31,7 +27,7 @@ export default function Main() {
                 </p>
               </div>
               <div  
-                className="cursor-pointer"
+                className="cursor-pointer right-1"
                 onClick={() => {
                   navigate("/twelve");
                 }}

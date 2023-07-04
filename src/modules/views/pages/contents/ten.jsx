@@ -12,8 +12,8 @@ export default function Main() {
     <>
       <div className="ring h-screen bg-login bg-no-repeat bg-contain bg-center">
         <div className="w-full h-full flex items-center mx-auto justify-around container">
-          <div className="h-auto py-12 rounded-xl shadow-xl bg-white/90">
-            <div className="flex justify-between w-9/12  px-3">
+          <div className="h-auto py-12 rounded-xl shadow-xl w-11/12 bg-white/90">
+            <div className="flex justify-evenly w-auto mx-auto">
               <div
                 className="cursor-pointer"
                 onClick={() => {
@@ -37,7 +37,7 @@ export default function Main() {
                 <FiArrowRight className="text-4xl -mt-6 text-center" />
               </div>
             </div>
-            <div className="px-6 w-full py-12">
+            <div className="p-12 w-full">
 
             <p className="font-semibold uppercase py-3 text-center text-xl">FIRE EXTINGUISHER CONTROL</p>
               <p className="text-justify text-xl "> est une
