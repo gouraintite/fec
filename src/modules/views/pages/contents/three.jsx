@@ -37,7 +37,7 @@ export default function Main() {
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
                   <p className="text-md font-semibold w-5/6">Niveau de température </p>
-                  <p className="text-md font-bold bg-orange-400 text-white rounded-lg text-lg border w-2/6">27 <span className="normal-case text-sm align-super">°C</span></p>
+                  <p className="text-md font-bold bg-orange-400 text-white rounded-lg text-lg border w-2/6">27 <span className="normal-case text-sm align-super">degrés</span></p>
                 </Button>
                 <Button
                   variant="outlined"
@@ -45,7 +45,7 @@ export default function Main() {
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
                   <p className="text-md font-semibold w-5/6">Niveau de pression </p>
-                  <p className="text-md font-bold bg-orange-400 text-white rounded-lg text-lg border w-2/6">6 <span className="normal-case text-sm align-super">Pa</span></p>
+                  <p className="text-md font-bold bg-orange-400 text-white rounded-lg text-lg border w-2/6">17 <span className="normal-case text-sm align-super">bars</span></p>
                 </Button>
                 <Button
                   variant="outlined"
@@ -53,7 +53,7 @@ export default function Main() {
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
                   <p className="text-md font-semibold w-5/6">Présence de feu </p>
-                  <p className="text-md font-bold bg-red-400 text-white rounded-lg text-lg border w-2/6">Oui</p>
+                  <p className="text-md font-bold bg-green-400 text-white rounded-lg text-lg border w-2/6">Non</p>
                 </Button>
               </div>
             </div>
