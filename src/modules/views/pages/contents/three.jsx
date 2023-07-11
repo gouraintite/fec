@@ -28,35 +28,32 @@ export default function Main() {
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Surveillance fumée</p>
+                  <p className="text-md font-semibold w-5/6">Niveau de fumée</p>
+                  <p className="text-md font-bold bg-green-400 text-white rounded-lg text-lg border w-2/6">0</p>
                 </Button>
                 <Button
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Surveillance flamme</p>
+                  <p className="text-md font-semibold w-5/6">Niveau de température </p>
+                  <p className="text-md font-bold bg-orange-400 text-white rounded-lg text-lg border w-2/6">27 <span className="normal-case text-sm align-super">°C</span></p>
                 </Button>
                 <Button
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Surveillance température </p>
+                  <p className="text-md font-semibold w-5/6">Niveau de pression </p>
+                  <p className="text-md font-bold bg-orange-400 text-white rounded-lg text-lg border w-2/6">6 <span className="normal-case text-sm align-super">Pa</span></p>
                 </Button>
                 <Button
                   variant="outlined"
                   color="amber"
                   className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
                 >
-                  <p className="text-md font-semibold w-5/6">Surveillance pression </p>
-                </Button>
-                <Button
-                  variant="outlined"
-                  color="amber"
-                  className="flex text-black duration-300 ease-in-out hover:bg-orange-400 hover:text-white w-full justify-around items-center gap-3"
-                >
-                  <p className="text-md font-semibold w-5/6">Surveillance mouvement </p>
+                  <p className="text-md font-semibold w-5/6">Présence de feu </p>
+                  <p className="text-md font-bold bg-red-400 text-white rounded-lg text-lg border w-2/6">Oui</p>
                 </Button>
               </div>
             </div>
